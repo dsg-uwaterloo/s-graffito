@@ -15,10 +15,9 @@ Specialized systems, on the other hand, provide satisfactory performance for the
 The primary focus of this component is the efficient processing of persistent graph queries over large streaming graphs with very high edge arrival rates.
 We investigate query execution techniques and robust system architectures for an efficient and scalable treaming Graph Management System (SGMS).
 In particular, we tackle following problems for efficient persistent query evaluation over streaming graphs:
-
-    1. Design and development of non-blocking algorithms for persistent evaluation of path navigation queries over streaming graphs.
-    2. Query processing techniques for persistent graph queries with both structural and attribute-based predicates.
-    3. Scale-out system architectures and distributed query evaluation techniques to scale to large streaming graphs arising in real-world applications.
+ 1. Design and development of non-blocking algorithms for persistent evaluation of path navigation queries over streaming graphs.
+ 2. Query processing techniques for persistent graph queries with both structural and attribute-based predicates.
+ 3. Scale-out system architectures and distributed query evaluation techniques to scale to large streaming graphs arising in real-world applications.
 
 ### Streaming Graph Analytics
 
