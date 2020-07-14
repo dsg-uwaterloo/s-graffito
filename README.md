@@ -22,9 +22,7 @@ In particular, we tackle following problems for efficient persistent query evalu
  3. Scale-out system architectures and distributed query evaluation techniques to scale to large streaming graphs arising in real-world applications.
 
 ### Streaming Graph Analytics
-<details>
-  <summary>Streaming Graph Analytics</summary>
-###  
+
  Graph analytics is concerned with estimating properties of the graph or finding patterns within a graph (e.g. finding cliques or densely connected clusters, subgraph matching, and finding frequent patterns/motifs). Running analytics tasks over streaming graphs is particularly challenging because of the unboundedness of the graph (i.e. sequential access to the unbounded structural events in the graph) as well as the potentially bursty and high velocity arrivals. 
 
 The growing need to process streaming graphs, with their ever-changing nature, has brought about a resurgence of interest in prediction-based analytics over streaming graph (e.g. link prediction, node prediction, event time prediction, and pattern prediction). Prediction-based analytics demand rethinking about processing methods. Classical graph analytics systems operate on static graphs and/or rely on computing explicit structural patterns of the graph (e.g. degree distribution, shortest paths, Pagerank computation, random-walk ranks, connected components, and subgraph counting). Prediction-based analytics, however, requires recognizing hidden/implicit patterns and correlations in the graph. These patterns/correlations rely on both the structure and the properties (i.e. feature vectors of edges/vertices) of the graph. Therefore, prediction-based analytics demands efficiently combining the structure and properties. This is where machine learning can assist graph analytics via graph embedding, a commonly practiced approach to learn a model for mapping the semi-structured graph data to low-dimensional vector space such that the learned embeddings preserve the graph characteristics. Such graph embeddings can adapt to emerging vertices, edges, and the local/global topology of the graph; and they can be adjusted to combine the properties of neighborhoods with any level of depth and width into low dimensional embeddings. The low dimensional space would enhance the performance of the analytics in terms of both memory and latency.
@@ -34,8 +32,6 @@ The primary focus of this component is creating an analytics engine that ingests
 1. Exploratory analysis of real-world streaming graphs
 2. Representation learning over streaming graphs
 3. Prediction-based analytics over streaming graphs
-
-</details>
 
 
 ## Publications
