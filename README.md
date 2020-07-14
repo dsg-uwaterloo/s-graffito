@@ -3,11 +3,13 @@
 
 S-graffito is a Streaming Graph Management System that addresses the processing of OLTP and OLAP queries on high streaming rate, very large graphs. These graphs are increasingly being deployed to capture relationships between entities (e.g., customers and catalog items in an online retail environment) both for transactional processing and for analytics (e.g., recommendation systems)
 
+<img src="images/dsmsarch.pdf?raw=true"/>
+
 ### Streaming Graph Querying
 
 Existing work on streaming graph systems, by and large,focuses on either:
- 1. maintenance of graph snapshots under a stream of updates for iterative graph analytic workloads, or
- 2. specialized systems for persistent query workloads that are tailored for the task in hand
+ 1. Maintenance of graph snapshots under a stream of updates for iterative graph analytic workloads, or
+ 2. Specialized systems for persistent query workloads that are tailored for the task in hand
  
 In a large number of applications, the unbounded nature of streaming graphs and the need for real-time answers on recent data make it impractical to employ snapshot-based techniques.
 Specialized systems, on the other hand, provide satisfactory performance for the task in hand but they lack the flexibility to support a wide range of real-world scenarios.
