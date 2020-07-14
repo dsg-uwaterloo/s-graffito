@@ -23,7 +23,7 @@ In particular, we tackle following problems for efficient persistent query evalu
 
 ### Streaming Graph Analytics
 <details>
-  <summary>### Streaming Graph Analytics</summary>
+  <summary>Streaming Graph Analytics</summary>
   
  Graph analytics is concerned with estimating properties of the graph or finding patterns within a graph (e.g. finding cliques or densely connected clusters, subgraph matching, and finding frequent patterns/motifs). Running analytics tasks over streaming graphs is particularly challenging because of the unboundedness of the graph (i.e. sequential access to the unbounded structural events in the graph) as well as the potentially bursty and high velocity arrivals. 
 
