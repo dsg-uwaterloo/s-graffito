@@ -33,6 +33,10 @@ The primary focus of this component is creating an analytics engine that ingests
 2. Representation learning over streaming graphs
 3. Prediction-based analytics over streaming graphs
 
+## Talks
+
+Streaming Graph Processing and Analytics [Slides](files/streaming_graph_debs_keynote.pdf), [Video](https://acm-org.zoom.us/rec/play/vscpde2r-Gk3TNWVtASDBPN7W461LqysgSgf__ZfyxywBSJQM1GhYrITa-O09rqfGKnBoXqR08hHShef), Keynote at 14th International Conference on Distributed and Event-Based Systems, 2020
+
 ## Publications
 
 SIGMOD'20: [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012)
