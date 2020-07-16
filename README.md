@@ -27,7 +27,7 @@ In particular, we tackle following problems for efficient persistent query evalu
 
 The growing need to process streaming graphs, with their ever-changing nature, has brought about a resurgence of interest in prediction-based analytics over streaming graph (e.g. link prediction, node prediction, event time prediction, and pattern prediction). Prediction-based analytics demand rethinking about processing methods. Classical graph analytics systems operate on static graphs and/or rely on computing explicit structural patterns of the graph (e.g. degree distribution, shortest paths, Pagerank computation, random-walk ranks, connected components, and subgraph counting). Prediction-based analytics, however, requires recognizing hidden/implicit patterns and correlations in the graph. These patterns/correlations rely on both the structure and the properties (i.e. feature vectors of edges/vertices) of the graph. Therefore, prediction-based analytics demands efficiently combining the structure and properties. This is where machine learning can assist graph analytics via graph embedding, a commonly practiced approach to learn a model for mapping the semi-structured graph data to low-dimensional vector space such that the learned embeddings preserve the graph characteristics. Such graph embeddings can adapt to emerging vertices, edges, and the local/global topology of the graph; and they can be adjusted to combine the properties of neighborhoods with any level of depth and width into low dimensional embeddings. The low dimensional space would enhance the performance of the analytics in terms of both memory and latency.
 
-The primary focus of this component is creating an analytics engine that ingests streaming records,  batches them using sliding window semantics,  and per-forms (several) machine learning-aided analytics tasks on each batch before retiring the corresponding window and ingesting the next batch.  To this end, we design efficient algorithms for a generic analytics engine that is based on time-based windows (as the computation methodology) and low dimensional vertex embeddings (as the analytics primitives). In particular, we tackle the following problems for efficient analytics over streaming graphs.
+The primary focus of this component is creating an analytics engine that ingests streaming records,  batches them using sliding window semantics,  and performs (several) machine learning-aided analytics tasks on each batch before retiring the corresponding window and ingesting the next batch.  To this end, we design efficient algorithms for a generic analytics engine that is based on time-based windows (as the computation methodology) and low dimensional vertex embeddings (as the analytics primitives). In particular, we tackle the following problems for efficient analytics over streaming graphs.
 
 1. Exploratory analysis of real-world streaming graphs
 2. Representation learning over streaming graphs
@@ -35,8 +35,8 @@ The primary focus of this component is creating an analytics engine that ingests
 
 ## Talks
 
-#### Streaming Graph Processing and Analytics ([Slides](files/streaming_graph_debs_keynote.pdf), [Video](https://acm-org.zoom.us/rec/play/vscpde2r-Gk3TNWVtASDBPN7W461LqysgSgf__ZfyxywBSJQM1GhYrITa-O09rqfGKnBoXqR08hHShef)) 
-Keynote at 14th International Conference on Distributed and Event-Based Systems, 2020
+##### Streaming Graph Processing and Analytics ([Slides](files/streaming_graph_debs_keynote.pdf?raw=true), [Video](https://acm-org.zoom.us/rec/play/vscpde2r-Gk3TNWVtASDBPN7W461LqysgSgf__ZfyxywBSJQM1GhYrITa-O09rqfGKnBoXqR08hHShef)) 
+Keynote at [14th International Conference on Distributed and Event-Based Systems, 2020](https://2020.debs.org/)
 
 ## Publications
 
