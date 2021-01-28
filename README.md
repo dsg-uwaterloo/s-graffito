@@ -59,4 +59,4 @@ arXiv: [sGrapp: Butterfly Approximation in Streaming Graphs]()
 
 [Anil Pacaci](https://cs.uwaterloo.ca/~apacaci/) (PhD Student)
 
-[Aida Sheshbolouki]() (PhD Student)
+[Aida Sheshbolouki](https://scholar.google.com/citations?user=5zwbvpoAAAAJ&hl=en) (PhD Student)
