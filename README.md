@@ -56,7 +56,5 @@ arXiv: [sGrapp: Butterfly Approximation in Streaming Graphs]()
 ## People
 
 [M. Tamer Özsu](https://cs.uwaterloo.ca/~tozsu/)
-
-Aida Sheshbolouki (PhD Student)
-
 [Anil Pacaci](https://cs.uwaterloo.ca/~apacaci/) (PhD Student)
+Aida Sheshbolouki (PhD Student)
