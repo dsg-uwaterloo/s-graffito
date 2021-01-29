@@ -49,7 +49,7 @@ arXiv(to be appeared): [sGrapp: Butterfly Approximation in Streaming Graphs](htt
 ## Artifacts
 
 ##### Streaming Graph Analytics
-[sGrapp: Butterfly Approximation in Streaming Graphs](https://github.com/aidasheshbolouki/sGrapp)
+[sGrapp: Butterfly Approximation in Streaming Graphs](files/sGrapp_artifacts.zip)
 
 
 ## People
