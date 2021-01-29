@@ -1,0 +1,139 @@
+{
+  "name" : "so",
+  "dataset" : "/hdd1/apacaci/datasets/stackoverflow/labeled-sorted.txt",
+  "input-type" : "it",
+  "report-folder" : "/home/apacaci/sgraffito-query/results/so-table1-query4/",
+  "timeout" : 600,
+  "project-base" : "/hdd1/apacaci/sgraffito/sgraffito-query",
+  "runs" : [
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4-a",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4-pc1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4-pc2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query3-a",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query2-a",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    }
+  ]
+}

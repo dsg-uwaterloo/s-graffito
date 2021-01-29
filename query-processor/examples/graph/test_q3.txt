@@ -1,0 +1,5 @@
+2 hasCreator 3 7
+1 knows 2 8
+3 hasCreator 5 10
+5 replyOf 6 15
+6 replyOf 7 16
