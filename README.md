@@ -42,6 +42,7 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 ##### Streaming Graph Querying
 SIGMOD'20: [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012)
+
 SIGMOD'19: [Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045)
 
 ##### Streaming Graph Analytics
