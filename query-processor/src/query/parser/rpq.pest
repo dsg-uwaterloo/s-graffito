@@ -1,0 +1,18 @@
+OPEN_PARANTHESIS = _{ "(" }
+CLOSE_PARENTHESIS = _{ ")" }
+ALTERNATION_SYMBOL = _{ "|" }
+CONCAT_SYMBOL = _{ "/" }
+INVERSE_SYMBOL = _{"^"}
+
+predicate = { ":"? ~ ASCII_ALPHANUMERIC*}
+Integer = {ASCII_DIGIT*}
+
+Path	 =	{ PathAlternative }
+PathAlternative	 = { PathSequence ~ ( ALTERNATION_SYMBOL ~ PathSequence )* }
+PathSequence = { PathEltOrInverse ~ ( CONCAT_SYMBOL ~ PathEltOrInverse | INVERSE_SYMBOL ~ PathElt )* }
+PathElt	 =	{ PathPrimary ~ PathMod? }
+PathEltOrInverse = { INVERSE_SYMBOL ~ PathElt | PathElt}
+PathMod	 =	 { ( "*" | "?" | "+" | "{" ~ ( Integer ~ ( "," ~ ( "}" | Integer ~ "}" ) | "}" ) ) ) }
+PathPrimary	 =	{ (  OPEN_PARANTHESIS ~ Path ~ CLOSE_PARENTHESIS ) | predicate }
+
+RPQ = {SOI ~ Path ~ EOI}

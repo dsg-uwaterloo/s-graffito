@@ -1,0 +1,1968 @@
+{
+  "name": "ldbc-sf10",
+  "dataset": "/hdd1/apacaci/datasets/ldbc/sf10/update-sorted-unixts.csv",
+  "input-type": "it",
+  "report-folder": "/home/apacaci/sgraffito-query/results/ldbc-sf10-table1/",
+  "timeout": 600,
+  "project-base": "/hdd1/apacaci/sgraffito/sgraffito-query",
+  "runs": [
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 10800,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 21600,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 43200,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 172800,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 345600,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 432000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1296000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2160000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "likes",
+        "replyOf",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "moderatorOf", "containerOf", "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "hasCreator",
+        "replyOf"
+      ]
+    },
+    {
+      "query-name" : "query6-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query7-cq",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "knows",
+        "likes",
+        "hasCreator"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2592000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "hasCreator"
+      ]
+    }
+  ]
+}

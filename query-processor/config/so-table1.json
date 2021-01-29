@@ -1,0 +1,1810 @@
+{
+  "name" : "so",
+  "dataset" : "/hdd1/apacaci/datasets/stackoverflow/labeled-sorted.txt",
+  "input-type" : "it",
+  "report-folder" : "/home/apacaci/sgraffito-query/results/so-table1/",
+  "timeout" : 600,
+  "project-base" : "/hdd1/apacaci/sgraffito/sgraffito-query",
+  "runs" : [
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 10800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 21600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 43200,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 172800,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query1",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q"
+      ]
+    },
+    {
+      "query-name" : "query2",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query3",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query5",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query6",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
+      "query-name" : "query7",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q",
+        "c2q"
+      ]
+    },
+    {
+      "query-name" : "query8",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 2629743,
+      "slide-size" : 345600,
+      "predicates" : [
+        "a2q"
+      ]
+    }
+  ]
+}
