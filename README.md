@@ -44,7 +44,7 @@ SIGMOD'20: [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org
 SIGMOD'19: [Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045)
 
 ##### Streaming Graph Analytics
-arXiv(to be appeared): [sGrapp: Butterfly Approximation in Streaming Graphs](files/sGrapp-long_version.pdf)
+arXiv: [sGrapp: Butterfly Approximation in Streaming Graphs](http://arxiv.org/abs/2101.12334)
 
 ## Artifacts
 
