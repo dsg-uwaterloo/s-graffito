@@ -28,7 +28,7 @@ with open(aggregated_results_file, 'w') as csv_file:
     fieldnames = ['query', 'exec', 'binding', 'window-size', 'slide-size', 'slide-count',
                   'processed-size-mean', 'processed-size-p99', 'processed-mean', 'processed-p99',
                   'total-size-mean', 'total-size-p99', 'total-mean', 'total-p99',
-                  'tput', 'total-time', 'last-slide-time', 'memory']
+                  'throughput', 'total-time', 'last-slide-time', 'memory']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
 
@@ -112,7 +112,7 @@ with open(aggregated_results_file, 'w') as csv_file:
                 'total-size-p99' : total_slide_size_p99,
                 'total-mean': total_mean,
                 'total-p99': total_p99,
-                'tput' : str(int(slide_count) * int(slide_size_mean) / (last_slide_count * REPORTING_PERIOD_IN_SECONDS)),
+                'throughput' : str(int(slide_count) * int(slide_size_mean) / time),
                 'total-time' : time,
                 'last-slide-time' : str(last_slide_count * REPORTING_PERIOD_IN_SECONDS),
                 'memory': memory
