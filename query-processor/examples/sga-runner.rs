@@ -164,9 +164,9 @@ fn main() {
             let edge_predicate = sge.get_label();
             edge_ts = sge.get_timestamp();
 
-            // do not computation and measurements until window is full for the first time
+            // do not computation and measurements until slide is full for the first time
             if edge_ts - start_time >= slide_size {
-                // perform the first window flush
+                // perform the first flush
                 if first_window {
                     first_window = false;
 
@@ -176,12 +176,12 @@ fn main() {
                     total_edge_counter = 0;
                     processed_edge_counter = 0;
 
-                    // advance input so that computation of the first window is performed
+                    // advance input so that computation is performed
                     input.advance_to(edge_ts);
                     worker.step_while(|| probe.less_than(input.time()));
                     info!("Window is fully populated at {} after {}", edge_ts, timer.elapsed().as_secs());
                 } else if edge_ts - last_batch_process >= slide_size {
-                    // perform window slide and measure elapsed time
+                    // perform  slide and measure elapsed time
                     trace!("Slide at {}", edge_ts);
                     last_batch_process = edge_ts;
 

@@ -13,7 +13,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -83,7 +83,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -93,7 +94,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -103,7 +104,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -119,18 +120,6 @@
     },
     {
       "query-name" : "query3",
-      "index" : "1",
-      "exec-name": "sga-runner",
-      "window-size" : 864000,
-      "slide-size" : 86400,
-      "predicates" : [
-        "a2q",
-        "c2q",
-        "c2a"
-      ]
-    },
-    {
-      "query-name" : "query4",
       "index" : "1",
       "exec-name": "sga-runner",
       "window-size" : 864000,
@@ -142,6 +131,18 @@
       ]
     },
     {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 864000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
       "query-name" : "query5",
       "index" : "1",
       "exec-name": "sga-runner",
@@ -173,7 +174,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -183,7 +185,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -193,7 +195,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -209,18 +211,6 @@
     },
     {
       "query-name" : "query3",
-      "index" : "1",
-      "exec-name": "dd-runner",
-      "window-size" : 1728000,
-      "slide-size" : 86400,
-      "predicates" : [
-        "a2q",
-        "c2q",
-        "c2a"
-      ]
-    },
-    {
-      "query-name" : "query4",
       "index" : "1",
       "exec-name": "dd-runner",
       "window-size" : 1728000,
@@ -232,6 +222,18 @@
       ]
     },
     {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "dd-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
       "query-name" : "query5",
       "index" : "1",
       "exec-name": "dd-runner",
@@ -263,7 +265,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -273,7 +276,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -283,7 +286,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -299,18 +302,6 @@
     },
     {
       "query-name" : "query3",
-      "index" : "1",
-      "exec-name": "sga-runner",
-      "window-size" : 1728000,
-      "slide-size" : 86400,
-      "predicates" : [
-        "a2q",
-        "c2q",
-        "c2a"
-      ]
-    },
-    {
-      "query-name" : "query4",
       "index" : "1",
       "exec-name": "sga-runner",
       "window-size" : 1728000,
@@ -322,6 +313,18 @@
       ]
     },
     {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 1728000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
       "query-name" : "query5",
       "index" : "1",
       "exec-name": "sga-runner",
@@ -353,7 +356,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -363,7 +367,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -373,7 +377,7 @@
       "window-size" : 2629743,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -443,7 +447,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -453,7 +458,7 @@
       "window-size" : 2629743,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -463,7 +468,7 @@
       "window-size" : 2629743,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -533,7 +538,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -543,7 +549,7 @@
       "window-size" : 2629743,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -553,7 +559,7 @@
       "window-size" : 3456000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -623,7 +629,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -633,7 +640,7 @@
       "window-size" : 3456000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -643,7 +650,7 @@
       "window-size" : 3456000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -659,18 +666,6 @@
     },
     {
       "query-name" : "query3",
-      "index" : "1",
-      "exec-name": "sga-runner",
-      "window-size" : 3456000,
-      "slide-size" : 86400,
-      "predicates" : [
-        "a2q",
-        "c2q",
-        "c2a"
-      ]
-    },
-    {
-      "query-name" : "query4",
       "index" : "1",
       "exec-name": "sga-runner",
       "window-size" : 3456000,
@@ -682,6 +677,18 @@
       ]
     },
     {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 3456000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
       "query-name" : "query5",
       "index" : "1",
       "exec-name": "sga-runner",
@@ -713,7 +720,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -723,7 +731,7 @@
       "window-size" : 3456000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -733,7 +741,7 @@
       "window-size" : 4320000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -803,7 +811,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -813,7 +822,7 @@
       "window-size" : 4320000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -823,7 +832,7 @@
       "window-size" : 4320000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -839,18 +848,6 @@
     },
     {
       "query-name" : "query3",
-      "index" : "1",
-      "exec-name": "sga-runner",
-      "window-size" : 4320000,
-      "slide-size" : 86400,
-      "predicates" : [
-        "a2q",
-        "c2q",
-        "c2a"
-      ]
-    },
-    {
-      "query-name" : "query4",
       "index" : "1",
       "exec-name": "sga-runner",
       "window-size" : 4320000,
@@ -862,6 +859,18 @@
       ]
     },
     {
+      "query-name" : "query4",
+      "index" : "1",
+      "exec-name": "sga-runner",
+      "window-size" : 4320000,
+      "slide-size" : 86400,
+      "predicates" : [
+        "a2q",
+        "c2q",
+        "c2a"
+      ]
+    },
+    {
       "query-name" : "query5",
       "index" : "1",
       "exec-name": "sga-runner",
@@ -893,7 +902,8 @@
       "slide-size" : 86400,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -903,7 +913,7 @@
       "window-size" : 4320000,
       "slide-size" : 86400,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -913,7 +923,7 @@
       "window-size" : 2629743,
       "slide-size" : 10800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -983,7 +993,8 @@
       "slide-size" : 10800,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -993,7 +1004,7 @@
       "window-size" : 2629743,
       "slide-size" : 10800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1003,7 +1014,7 @@
       "window-size" : 2629743,
       "slide-size" : 10800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1073,7 +1084,8 @@
       "slide-size" : 10800,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1083,7 +1095,7 @@
       "window-size" : 2629743,
       "slide-size" : 10800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1093,7 +1105,7 @@
       "window-size" : 2629743,
       "slide-size" : 21600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1163,7 +1175,8 @@
       "slide-size" : 21600,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1173,7 +1186,7 @@
       "window-size" : 2629743,
       "slide-size" : 21600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1183,7 +1196,7 @@
       "window-size" : 2629743,
       "slide-size" : 21600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1253,7 +1266,8 @@
       "slide-size" : 21600,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1263,7 +1277,7 @@
       "window-size" : 2629743,
       "slide-size" : 21600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1273,7 +1287,7 @@
       "window-size" : 2629743,
       "slide-size" : 43200,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1343,7 +1357,8 @@
       "slide-size" : 43200,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1353,7 +1368,7 @@
       "window-size" : 2629743,
       "slide-size" : 43200,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1363,7 +1378,7 @@
       "window-size" : 2629743,
       "slide-size" : 43200,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1433,7 +1448,8 @@
       "slide-size" : 43200,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1443,7 +1459,7 @@
       "window-size" : 2629743,
       "slide-size" : 43200,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1453,7 +1469,7 @@
       "window-size" : 2629743,
       "slide-size" : 172800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1523,7 +1539,8 @@
       "slide-size" : 172800,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1533,7 +1550,7 @@
       "window-size" : 2629743,
       "slide-size" : 172800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1543,7 +1560,7 @@
       "window-size" : 2629743,
       "slide-size" : 172800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1613,7 +1630,8 @@
       "slide-size" : 172800,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1623,7 +1641,7 @@
       "window-size" : 2629743,
       "slide-size" : 172800,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1633,7 +1651,7 @@
       "window-size" : 2629743,
       "slide-size" : 345600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1703,7 +1721,8 @@
       "slide-size" : 345600,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1713,7 +1732,7 @@
       "window-size" : 2629743,
       "slide-size" : 345600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1723,7 +1742,7 @@
       "window-size" : 2629743,
       "slide-size" : 345600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     },
     {
@@ -1793,7 +1812,8 @@
       "slide-size" : 345600,
       "predicates" : [
         "a2q",
-        "c2q"
+        "c2q",
+        "c2a"
       ]
     },
     {
@@ -1803,7 +1823,7 @@
       "window-size" : 2629743,
       "slide-size" : 345600,
       "predicates" : [
-        "a2q"
+        "c2q"
       ]
     }
   ]

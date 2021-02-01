@@ -78,7 +78,8 @@ impl DDQueryLibrary {
         // Create SGT from results with default interval
         s1.map(|sgt| (sgt.target, sgt.source))
             .join(&s2.map(|sgt| (sgt.source, sgt.target)))
-            .map(move |(_key, (s1, t2))| StreamingGraphTuple::new(s1, t2, output_label.clone(), HalfOpenTimeInterval::ZERO))
+            .map(|(_key, (s1, t2))| (s1, t2)).distinct()
+            .map(move |(s1, t2)| StreamingGraphTuple::new(s1, t2, output_label.clone(), HalfOpenTimeInterval::ZERO))
     }
 
     pub fn query1<'a>(input: Collection<Child<'a, Worker<Generic>, u64>, StreamingGraphEdge, isize>, edge_predicates: Vec<String>, output_label: String) -> Collection<Child<'a, Worker<Generic>, u64>, StreamingGraphTuple, isize> {
@@ -128,7 +129,7 @@ impl DDQueryLibrary {
 
         let results = s0
             .join(&s1_closure)
-            .map(|(_key, (s1, t2))| (s1, t2));
+            .map(|(_key, (s1, t2))| (s1, t2)).distinct();
 
         // construct sgts for reachable pairs
         results.map(move |(s, t)| StreamingGraphTuple::new(s, t, output_label.clone(), HalfOpenTimeInterval::ZERO))
@@ -177,9 +178,9 @@ impl DDQueryLibrary {
 
         let results = s0
             .join(&s1_closure)
-            .map(|(_key, (s1, t2))| (t2, s1))
+            .map(|(_key, (s1, t2))| (t2, s1)).distinct()
             .join(&s2_closure)
-            .map(|(_key, (s1, t3))| (s1, t3));
+            .map(|(_key, (s1, t3))| (s1, t3)).distinct();
 
 
         // construct sgts for reachable pairs
@@ -207,9 +208,9 @@ impl DDQueryLibrary {
 
         let cq = s0
             .join(&s1)
-            .map(|(_key, (s1, t2))| (t2, s1))
+            .map(|(_key, (s1, t2))| (t2, s1)).distinct()
             .join(&s2)
-            .map(|(_key, (s1, t3))| (s1, t3));
+            .map(|(_key, (s1, t3))| (s1, t3)).distinct();
 
         // obtain transitive closure over the subgraph pattern
         let results = cq
@@ -249,12 +250,12 @@ impl DDQueryLibrary {
         let results = stream1
             .map(|(s1, t1)| (t1, s1))
             .join(&stream0)
-            .map(|(_key, (s1, t0))| (t0, s1))
+            .map(|(_key, (s1, t0))| (t0, s1)).distinct()
             .join(&stream1.map(|(s3, t3)| (t3, s3)))
-            .map(|(_key, (s1, s3))| (s1, s3))
+            .map(|(_key, (s1, s3))| (s1, s3)).distinct()
             .join(&stream2.map(|(s2, t2)| (t2, s2)))
             .filter(|(_key, (s3, t2))| s3 == t2)
-            .map(|(key, (s3, _t2))| (key, s3));
+            .map(|(key, (s3, _t2))| (key, s3)).distinct();
 
 
         // construct sgts for reachable pairs
@@ -295,10 +296,10 @@ impl DDQueryLibrary {
 
         let results = s2
             .join(&s1.map(|(s, t)| (t, s)))
-            .map(|(_key, (hc_t, l_s))| (l_s, hc_t))
+            .map(|(_key, (hc_t, l_s))| (l_s, hc_t)).distinct()
             .join(&closure1)
             .filter(|(_key, (hc_t, k_t))| hc_t == k_t)
-            .map(|(k_s, (_, k_t))| (k_s, k_t));
+            .map(|(k_s, (_, k_t))| (k_s, k_t)).distinct();
 
         // construct sgts for reachable pairs
         results.map(move |(s, t)| StreamingGraphTuple::new(s, t, output_label.clone(), HalfOpenTimeInterval::ZERO))
@@ -325,10 +326,10 @@ impl DDQueryLibrary {
 
         let results = s2
             .join(&s1.map(|(s, t)| (t, s)))
-            .map(|(_key, (hc_t, l_s))| (l_s, hc_t))
+            .map(|(_key, (hc_t, l_s))| (l_s, hc_t)).distinct()
             .join(&s0)
             .filter(|(_key, (hc_t, k_t))| hc_t == k_t)
-            .map(|(k_s, (_, k_t))| (k_s, k_t));
+            .map(|(k_s, (_, k_t))| (k_s, k_t)).distinct();
 
         // construct sgts for reachable pairs
         results.map(move |(s, t)| StreamingGraphTuple::new(s, t, output_label.clone(), HalfOpenTimeInterval::ZERO))
@@ -368,13 +369,13 @@ impl DDQueryLibrary {
 
         let cq = s2
             .join(&s1.map(|(s, t)| (t, s)))
-            .map(|(_key, (hc_t, l_s))| (l_s, hc_t))
+            .map(|(_key, (hc_t, l_s))| (l_s, hc_t)).distinct()
             .join(&closure1)
             .filter(|(_key, (hc_t, k_t))| hc_t == k_t)
-            .map(|(k_s, (_, k_t))| (k_s, k_t));
+            .map(|(k_s, (_, k_t))| (k_s, k_t)).distinct();
 
         // obtain transitive closure over the subgraph pattern
-        let results = cq
+        let t = cq
             .iterate(|transitive| {
                 let cq = cq.enter(&transitive.scope());
                 transitive
@@ -384,6 +385,11 @@ impl DDQueryLibrary {
                     .concat(&cq)
                     .distinct()
             });
+
+        // join with last `c` edge
+        let results = t.map(|(s, t)| (t, s))
+            .join(&s2.map(|(s, t)| (t, s)))
+            .map(|(_key, (t_s, s2_s))| (t_s, s2_s)).distinct();
 
         // construct sgts for reachable pairs
         results.map(move |(s, t)| StreamingGraphTuple::new(s, t, output_label.clone(), HalfOpenTimeInterval::ZERO))
@@ -410,13 +416,13 @@ impl DDQueryLibrary {
 
         let cq = s2
             .join(&s1.map(|(s, t)| (t, s)))
-            .map(|(_key, (hc_t, l_s))| (l_s, hc_t))
+            .map(|(_key, (hc_t, l_s))| (l_s, hc_t)).distinct()
             .join(&s0)
             .filter(|(_key, (hc_t, k_t))| hc_t == k_t)
-            .map(|(k_s, (_, k_t))| (k_s, k_t));
+            .map(|(k_s, (_, k_t))| (k_s, k_t)).distinct();
 
         // obtain transitive closure over the subgraph pattern
-        let results = cq
+        let t = cq
             .iterate(|transitive| {
                 let cq = cq.enter(&transitive.scope());
                 transitive
@@ -426,6 +432,11 @@ impl DDQueryLibrary {
                     .concat(&cq)
                     .distinct()
             });
+
+        // join with last `c` edge
+        let results = t.map(|(s, t)| (t, s))
+            .join(&s2.map(|(s, t)| (t, s)))
+            .map(|(_key, (t_s, s2_s))| (t_s, s2_s)).distinct();
 
         // construct sgts for reachable pairs
         results.map(move |(s, t)| StreamingGraphTuple::new(s, t, output_label.clone(), HalfOpenTimeInterval::ZERO))
@@ -439,7 +450,7 @@ impl DDQueryLibrary {
         let cq = stream
             .join(&stream)
             .filter(|(_key, (s0, s1))| s0 != s1)
-            .map(|(_key, (s0, s1))| (s0, s1));
+            .map(|(_key, (s0, s1))| (s0, s1)).distinct();
 
         // obtain transitive closure over the subgraph pattern
         let results = cq
@@ -744,7 +755,8 @@ impl SGAQueryLibrary {
         streams[2]
             .hash_join(&streams[1], HashJoinAttributePair::ST, HashJoinAttributePair::TS, "j1".to_string())
             .hash_join_tuple(&closure, true, true, "cq".to_string())
-            .regular_path_query("cq*", output_label)
+            .regular_path_query("cq*", "r".to_string())
+            .hash_join(&streams[2], HashJoinAttributePair::TT, HashJoinAttributePair::SS, output_label)
     }
 
     pub fn query7_cq<'a>(input: Stream<Child<'a, Worker<Generic>, u64>, StreamingGraphTuple>, edge_predicates: Vec<String>, output_label: String) -> Stream<Child<'a, Worker<Generic>, u64>, StreamingGraphTuple> {
@@ -767,7 +779,8 @@ impl SGAQueryLibrary {
         streams[2]
             .hash_join(&streams[1], HashJoinAttributePair::ST, HashJoinAttributePair::TS, "j1".to_string())
             .hash_join_tuple(&streams[0], true, true, "cq".to_string())
-            .regular_path_query("cq*", output_label)
+            .regular_path_query("cq*", "r".to_string())
+            .hash_join(&streams[2], HashJoinAttributePair::TT, HashJoinAttributePair::SS, output_label)
     }
 
     pub fn query8<'a>(input: Stream<Child<'a, Worker<Generic>, u64>, StreamingGraphTuple>, edge_predicates: Vec<String>, output_label: String) -> Stream<Child<'a, Worker<Generic>, u64>, StreamingGraphTuple> {

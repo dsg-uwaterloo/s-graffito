@@ -92,7 +92,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -181,7 +181,7 @@
       "window-size" : 864000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -270,7 +270,7 @@
       "window-size" : 864000,
       "slide-size" : 10800,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -359,7 +359,7 @@
       "window-size" : 864000,
       "slide-size" : 10800,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -448,7 +448,7 @@
       "window-size" : 864000,
       "slide-size" : 21600,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -537,7 +537,7 @@
       "window-size" : 864000,
       "slide-size" : 21600,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -626,7 +626,7 @@
       "window-size" : 864000,
       "slide-size" : 43200,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -715,7 +715,7 @@
       "window-size" : 864000,
       "slide-size" : 43200,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -804,7 +804,7 @@
       "window-size" : 864000,
       "slide-size" : 172800,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -893,7 +893,7 @@
       "window-size" : 864000,
       "slide-size" : 172800,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -982,7 +982,7 @@
       "window-size" : 864000,
       "slide-size" : 345600,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1071,7 +1071,7 @@
       "window-size" : 864000,
       "slide-size" : 345600,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1160,7 +1160,7 @@
       "window-size" : 432000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1249,7 +1249,7 @@
       "window-size" : 432000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1338,7 +1338,7 @@
       "window-size" : 1296000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1427,7 +1427,7 @@
       "window-size" : 1296000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1516,7 +1516,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1605,7 +1605,7 @@
       "window-size" : 1728000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1694,7 +1694,7 @@
       "window-size" : 2160000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1783,7 +1783,7 @@
       "window-size" : 2160000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1872,7 +1872,7 @@
       "window-size" : 2592000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     },
     {
@@ -1961,7 +1961,7 @@
       "window-size" : 2592000,
       "slide-size" : 86400,
       "predicates" : [
-        "hasCreator"
+        "replyOf"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "name" : "so",
   "dataset" : "/hdd1/apacaci/datasets/stackoverflow/labeled-sorted.txt",
   "input-type" : "it",
-  "report-folder" : "/home/apacaci/sgraffito-query/results/so-table1-query4/",
+  "report-folder" : "/home/apacaci/sgraffito-query/results/so-table1-equivalent/",
   "timeout" : 600,
   "project-base" : "/hdd1/apacaci/sgraffito/sgraffito-query",
   "runs" : [

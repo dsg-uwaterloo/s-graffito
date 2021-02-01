@@ -2,7 +2,7 @@
   "name": "ldbc-sf10",
   "dataset": "/hdd1/apacaci/datasets/ldbc/sf10/update-sorted-unixts.csv",
   "input-type": "it",
-  "report-folder": "/home/apacaci/sgraffito-query/results/ldbc-sf10-query4/",
+  "report-folder": "/home/apacaci/sgraffito-query/results/ldbc-sf10-equivalent/",
   "timeout": 600,
   "project-base": "/hdd1/apacaci/sgraffito/sgraffito-query",
   "runs": [

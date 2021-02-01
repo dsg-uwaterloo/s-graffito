@@ -155,9 +155,9 @@ fn main() {
             let edge_predicate = sge.get_label();
             edge_ts = sge.timestamp;
 
-            // do not start computation and measurements until window is full for the first time
-            if edge_ts - start_time >= window_size {
-                // perform first window flush
+            // do not start computation and measurements until slide is full for the first time
+            if edge_ts - start_time >= slide_size {
+                // perform first flush
                 if first_window {
                     first_window = false;
 
@@ -167,7 +167,7 @@ fn main() {
                     total_edge_counter = 0;
                     processed_edge_counter = 0;
 
-                    // advance input so that computation of the first window is performed
+                    // advance input so that computation is performed
                     input1.advance_to(edge_ts);
                     input1.flush();
                     worker.step_while(|| probe.less_than(input1.time()));
