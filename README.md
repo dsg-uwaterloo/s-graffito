@@ -52,7 +52,7 @@ arXiv: [sGrapp: Butterfly Approximation in Streaming Graphs](http://arxiv.org/ab
 [Evaluating Complex Queries on Streaming Graphs](https://github.com/dsg-uwaterloo/s-graffito/tree/master/query-processor)
 
 ##### Streaming Graph Analytics
-[sGrapp: Butterfly Approximation in Streaming Graphs](files/sGrapp_artifacts.zip)
+[sGrapp: Butterfly Approximation in Streaming Graphs]()
 
 ## People
 
