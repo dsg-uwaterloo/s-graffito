@@ -38,21 +38,23 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 ## Publications
 
-##### Streaming Graph Querying
-SIGMOD'20: [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012)
-
-SIGMOD'19: [Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045)
-
 ##### Streaming Graph Analytics
-arXiv: [sGrapp: Butterfly Approximation in Streaming Graphs](http://arxiv.org/abs/2101.12334)
+* A. Sheshbolouki and M. T. Özsu, [sGrapp: Butterfly Approximation in Streaming Graphs](http://arxiv.org/abs/2101.12334), ACM Transactions on Knowledge Discovery From Data, 2021 (Accepted for publication)
+
+##### Streaming Graph Querying
+* A. Pacaci, A. Bonifati and M.T. Özsu, [Evaluating Complex Queries on Streaming Graphs](https://arxiv.org/abs/2101.12305), In 2022 IEEE 38th International Conference on Data Engineering (ICDE) (Accepted for publication)
+
+* A. Pacaci, A. Bonifati and M.T. Özsu, [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012), In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (pp. 1415-1430).
+
+* A. Pacaci and M.T. Özsu,[Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045), In Proceedings of the 2019 International Conference on Management of Data (pp. 1375-1392)
 
 ## Artifacts
 
-##### Streaming Graph Querying 
-[Evaluating Complex Queries on Streaming Graphs](https://github.com/dsg-uwaterloo/s-graffito/tree/master/query-processor)
-
 ##### Streaming Graph Analytics
 [sGrapp: Butterfly Approximation in Streaming Graphs]()
+
+##### Streaming Graph Querying 
+[Evaluating Complex Queries on Streaming Graphs](https://github.com/dsg-uwaterloo/s-graffito/tree/master/query-processor)
 
 ## People
 
