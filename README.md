@@ -60,7 +60,7 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 [M. Tamer Özsu](https://cs.uwaterloo.ca/~tozsu/)
 
-[Angela Bonifati](https://perso.liris.cnrs.fr/angela.bonifati/)
+[Angela Bonifati](https://perso.liris.cnrs.fr/angela.bonifati/) (Collaborator at Lyon 1 University)
 
 [Anil Pacaci](https://cs.uwaterloo.ca/~apacaci/) (PhD Student)
 
