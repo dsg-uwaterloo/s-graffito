@@ -42,11 +42,11 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 * A. Sheshbolouki and M. T. Özsu, [sGrapp: Butterfly Approximation in Streaming Graphs](http://arxiv.org/abs/2101.12334), ACM Transactions on Knowledge Discovery From Data, 2021 (Accepted for publication)
 
 ##### Streaming Graph Querying
-* A. Pacaci, A. Bonifati and M.T. Özsu, [Evaluating Complex Queries on Streaming Graphs](https://arxiv.org/abs/2101.12305), In 2022 IEEE 38th International Conference on Data Engineering (ICDE) (Accepted for publication)
+* A. Pacaci, A. Bonifati and M.T. Özsu, [Evaluating Complex Queries on Streaming Graphs](https://arxiv.org/abs/2101.12305), In Proceedings of the 38th IEEE  International Conference on Data Engineering (ICDE), 2022 (Accepted for publication)
 
-* A. Pacaci, A. Bonifati and M.T. Özsu, [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012), In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (pp. 1415-1430).
+* A. Pacaci, A. Bonifati and M.T. Özsu, [Regular Path Query Evaluation on Streaming Graphs](https://arxiv.org/abs/2004.02012), In Proceedings of the ACM SIGMOD International Conference on Management of Data, 2020 (pp. 1415-1430).
 
-* A. Pacaci and M.T. Özsu,[Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045), In Proceedings of the 2019 International Conference on Management of Data (pp. 1375-1392)
+* A. Pacaci and M.T. Özsu,[Experimental Analysis of Streaming Algorithms for Graph Partitining](https://dl.acm.org/authorize?N697045), In Proceedings of the  ACM SIGMOD International Conference on Management of Data, 2019 (pp. 1375-1392)
 
 ## Artifacts
 
