@@ -55,6 +55,8 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 ##### Streaming Graph Analytics
 [sGrapp: Butterfly Approximation in Streaming Graphs]()
 
+[Transient Concepts in Streaming Graphs] (https://github.com/dsg-uwaterloo/s-graffito/tree/master/conceptDrift.zip)
+
 ##### Streaming Graph Querying 
 [Evaluating Complex Queries on Streaming Graphs](https://github.com/dsg-uwaterloo/s-graffito/tree/master/query-processor)
 
