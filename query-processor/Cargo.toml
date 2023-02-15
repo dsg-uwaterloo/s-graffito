@@ -21,7 +21,7 @@ itertools = "0.9"
 log = "0.4.11"
 metrics-runtime = "0.13.1"
 metrics-core = "0.5.2"
-metrics-util = "0.3.2"
+metrics-util = "0.14.0"
 
 pest = "2.1"
 pest_derive = "2.1"
