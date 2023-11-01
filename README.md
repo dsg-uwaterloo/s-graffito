@@ -68,6 +68,6 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 [Anil Pacaci](https://cs.uwaterloo.ca/~apacaci/) (Former PhD Student)
 
-[Aida Sheshbolouki](https://aidasheshbolouki.com) (PhD Student)
+[Aida Sheshbolouki](https://www.linkedin.com/in/aidasheshbolouki/) (Former PhD Student, Postdoctoral Fellow)
 
 [Kerem Akillioglu](https://keremakillioglu.github.io) (MMath Student)
