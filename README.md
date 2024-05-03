@@ -41,7 +41,7 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 ##### Streaming Graph Analytics
 * A. Sheshbolouki and M. T. Özsu, [sGrapp: Butterfly Approximation in Streaming Graphs](https://dl.acm.org/doi/10.1145/3495011), _ACM Transactions on Knowledge Discovery From Data_, Volume 16, Issue 4, Article Number 76, Pages 1-43 (Published 8 January 2022)
 
-* A. Sheshbolouki and M. T. Özsu, [sGrow: Explaining the Scale-Invariant Strength Assortativity of Streaming Butterflies]([https://arxiv.org/abs/2111.12217](https://dl.acm.org/doi/full/10.1145/3572408)), _ACM Transactions on the Web_, Volume 17, Issue 3, Article Number 24, Pages 1-46 (Published 22 May 2023) + Accepted for presentation at ACM Web Conference 2024
+* A. Sheshbolouki and M. T. Özsu, [sGrow: Explaining the Scale-Invariant Strength Assortativity of Streaming Butterflies](https://dl.acm.org/doi/full/10.1145/3572408), _ACM Transactions on the Web_, Volume 17, Issue 3, Article Number 24, Pages 1-46 (Published 22 May 2023) + Accepted for presentation at ACM Web Conference 2024
 
 ##### Streaming Graph Querying
 * A. Pacaci, A. Bonifati and M.T. Özsu, [Evaluating Complex Queries on Streaming Graphs](https://arxiv.org/abs/2101.12305), In _Proceedings of the 38th IEEE  International Conference on Data Engineering_,  pages 272-285, 2022 
