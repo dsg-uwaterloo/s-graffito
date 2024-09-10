@@ -53,7 +53,7 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 ## Artifacts
 
 ##### Streaming Graph Analytics
-[sGrapp: Butterfly Approximation in Streaming Graphs]()
+[sGrapp: Butterfly Approximation in Streaming Graphs](https://vault.cs.uwaterloo.ca/s/SBbCHS9wjd5MXmj)
 
 [sGrow: Explaining the Scale-Invariant Strength Assortativity of Streaming Butterflies](https://vault.cs.uwaterloo.ca/s/sz65CocnkRQNccj?path=%2F)
 
@@ -70,6 +70,6 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 [Anil Pacaci](https://cs.uwaterloo.ca/~apacaci/) (Former PhD Student)
 
-[Aida Sheshbolouki](https://www.aidasheshbolouki.net/) (Former PhD Student, Postdoctoral Fellow)
+[Aida Sheshbolouki](https://www.aidasheshbolouki.net/) (Former PhD Student, Former Postdoctoral Fellow)
 
 [Kerem Akillioglu](https://keremakillioglu.github.io) (MMath Student)
