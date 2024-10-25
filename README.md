@@ -72,4 +72,4 @@ Keynote at [14th International Conference on Distributed and Event-Based Systems
 
 [Aida Sheshbolouki](https://www.aidasheshbolouki.net/) (Former PhD Student, Former Postdoctoral Fellow)
 
-[Kerem Akillioglu](https://keremakillioglu.github.io) (MMath Student)
+[Kerem Akillioglu](https://keremakillioglu.github.io) (Former MMath Student)
